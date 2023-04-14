@@ -6,6 +6,11 @@
 }
 
 /*CLASSI UTILITY*/
+
+.col{
+    flex-direction: column;
+}
+
 .contenitore{
     width: 1410px;
     display: flex;
@@ -16,7 +21,7 @@
     font-size: 14pt;
 }
 
-.misura-font:hover{
+.colore-font-hover:hover{
     text-decoration: underline;
     color: white;
 }
@@ -24,15 +29,10 @@
 .bordo-rotondo{
     border-radius: 50px;
 }
+
 .ombra:hover{
         box-shadow: 0px 5px 10px rgba(48, 48, 48, 0.5);
         transition-duration: 0.5s;
-}
-
-.testo-viola:hover{
-    color: blueviolet;
-    transition-duration: 0.5s;
-
 }
 
 .border-dotted{
@@ -58,6 +58,10 @@ nav{
     padding: 20px;
 }
 
+.padding-15{
+    padding: 15px;
+}
+
 .logo-misura{
     width: 57%;
 }
@@ -77,7 +81,7 @@ nav{
     
 }
 
-a.misura-font{
+.colore-font{
     color: white;
     text-decoration: none;
 }
@@ -87,18 +91,27 @@ a.misura-font{
     text-decoration: none;
 }
 
-.testo-centrale, .testo-sinistro, .testo-destro{
-    padding: 10px;
+.testo-viola:hover{
+    color: blueviolet;
+    transition-duration: 0.5s;
+
 }
 
-.testo-destro{
-    text-align: end;
+.testo-bold{
+    font-weight: 700;
 }
 
+.testo50pt{
+    font-size: 50pt;
+}
+
+.testo15pt{
+    font-size: 15pt;
+}
 /*MAIN*/
 
 .background-verde-acqua-chiaro, .background-trasparente, .background-blu, .background-grigio, .background-grigio-scuro{
-    padding: 50px;
+    padding: 70px;
 }
 
 .row-reverse{
@@ -111,7 +124,14 @@ a.misura-font{
     margin: auto;
 }
 
+.row80{
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+}
+
 /* Background */
+
 .background-bianco{
     width: 7%;
     background-color: white;
@@ -126,13 +146,6 @@ a.misura-font{
 }
 
 /*quadri*/
-
-.quadro-fucsia{
-    background-color: fuchsia;
-    margin: auto;
-    width: 80%;
-    height: 400px;
-}
 
 .quadro-rosa{
     width: 40%;
