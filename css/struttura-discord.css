@@ -21,7 +21,7 @@
     font-size: 14pt;
 }
 
-.colore-font-hover:hover{
+.testo-bianco-hover:hover{
     text-decoration: underline;
     color: white;
 }
@@ -170,7 +170,6 @@ nav{
 
 .quadro-verde{
     width: 100%;
-    height: 1410px;
     background-color: green;
 }
 
