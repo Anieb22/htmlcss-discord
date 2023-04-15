@@ -40,7 +40,7 @@
 }
 
 .bordo-sotto-grigio{
-    border-bottom: 10px solid lightgray;
+    margin-bottom: -5px;
 }
 
 .border-dotted{
