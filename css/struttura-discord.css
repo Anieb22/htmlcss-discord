@@ -35,6 +35,14 @@
         transition-duration: 0.5s;
 }
 
+.specchiato{
+    transform: rotate(180deg);
+}
+
+.bordo-sotto-grigio{
+    border-bottom: 2px solid lightgray;
+}
+
 .border-dotted{
     border: 3px dashed black;
 }
@@ -46,7 +54,6 @@
 .border-solid-white{
     border-top: 2px solid white;
 }
-
 /*NAV E HEADER*/
 
 header{
@@ -60,6 +67,10 @@ nav{
 
 .padding-15{
     padding: 15px;
+}
+
+.padding-50{
+    padding-bottom: 50px;
 }
 
 .logo-misura{
@@ -106,8 +117,8 @@ nav{
     font-size: 50pt;
 }
 
-.testo15pt{
-    font-size: 15pt;
+.testo20pt{
+    font-size: 20pt;
 }
 
 .dimensione-immagini{
@@ -160,12 +171,10 @@ nav{
 
 .quadro-rosa{
     width: 40%;
-    background-color: pink;
 }
 
 .quadro-celeste{
     width: 60%;
-    background-color: lightskyblue;
 }
 
 .quadro-verde{
