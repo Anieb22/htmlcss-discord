@@ -17,7 +17,7 @@
     margin: auto;
 }
 
-.misura-font{
+.misura-font14{
     font-size: 14pt;
 }
 
@@ -63,17 +63,17 @@ nav{
 }
 
 .logo-misura{
-    width: 57%;
+    width: 200px;
 }
 
 .row20{
-    width: 20%; 
+    overflow: auto;
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
-.row40{
+.row60{
     width:60%;
     margin: auto;
     display: flex;
@@ -81,7 +81,7 @@ nav{
     
 }
 
-.colore-font{
+.testo-bianco{
     color: white;
     text-decoration: none;
 }
@@ -97,6 +97,7 @@ nav{
 
 }
 
+
 .testo-bold{
     font-weight: 700;
 }
@@ -107,6 +108,10 @@ nav{
 
 .testo15pt{
     font-size: 15pt;
+}
+
+.dimensione-immagini{
+    width: 100%;
 }
 /*MAIN*/
 
@@ -127,13 +132,19 @@ nav{
 .row80{
     margin: auto;
     width: 80%;
-    flex-direction: column;
 }
 
 /* Background */
 
+.background-nero{
+    background-color: black;
+}
+
+.background-nero-grigio:hover{
+    background-color: rgb(27, 27, 27);
+}
+
 .background-bianco{
-    width: 7%;
     background-color: white;
 }
 
