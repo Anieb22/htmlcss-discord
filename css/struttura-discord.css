@@ -8,6 +8,7 @@
 /*CLASSI UTILITY*/
 
 .col{
+    display: flex;
     flex-direction: column;
 }
 
@@ -112,17 +113,16 @@ nav{
 
 }
 
-
 .testo-bold{
     font-weight: 700;
 }
 
 .testo50pt{
-    font-size: 50pt;
+    font-size: 45pt;
 }
 
 .testo20pt{
-    font-size: 20pt;
+    font-size: 19pt;
 }
 
 .dimensione-immagini{
@@ -171,6 +171,14 @@ nav{
     background-color: gray;
 }
 
+.background-viola{
+    background-color: rgb(106, 67, 179);
+}
+
+.background-viola:hover{
+    background-color: rgb(169, 132, 238);
+}
+
 /*quadri*/
 
 .quadro-rosa{
@@ -183,7 +191,6 @@ nav{
 
 .quadro-verde{
     width: 100%;
-    background-color: green;
 }
 
 .quadro-salmone{
