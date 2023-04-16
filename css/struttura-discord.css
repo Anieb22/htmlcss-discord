@@ -53,7 +53,7 @@
 }
 
 .border-solid-white{
-    border-top: 2px solid #7289DA;
+    border-top: 2px solid #5865F2;
 }
 
 .alineamento-destra{
@@ -165,7 +165,7 @@ nav{
 }
 
 .background-bianco{
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .background-grigio{
@@ -200,7 +200,7 @@ nav{
 
 .quadro-salmone{
     width: 30%;
-    background-color: salmon;
+    overflow: auto;
 }
 
 .quadro-verde-acqua{
@@ -225,4 +225,37 @@ nav{
     justify-content: center;
     padding: 10px 5px;
     text-align: center;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+.testo-viola-footer{
+    color: #5865F2;
+}
+
+.testo30pt{
+    font-size: 30pt;
+}
+
+.misura-bandiera{
+    width: 7%;
+    margin-right: 3px;
+}
+
+.misura-freccia{
+    width: 5%;
+}
+
+.allineamento-centrale{
+    display: flex;
+    align-items: center;
+}
+
+.spazio-icone{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-top: 15px;
 }
